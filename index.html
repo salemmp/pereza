@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/rockhaven" rel="stylesheet">
+     <link rel="stylesheet" href="mobile.css">           
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>PerezosoVnzla</title>
+</head>
+<body>
+    <div class="container a">
+        <div class="vitrina">
+           
+        </div>
+        <video autoplay loop muted playsinline poster="ruta/a/tu/imagen_de_portada.jpg">
+            <source src="principal.mp4" type="video/mp4">
+          </video>
+        <nav >
+            <img  class="textura" src="largopincel2.png" alt="">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="#seccion_productos">Productos</a></li>
+                <li><a href="">Tienda</a></li>
+            </ul>
+            
+        </nav>
+        <div class="container_img">
+            
+                <img data-aos="fade-up" class="logo" src="logo.JPG" alt="">
+            
+        </div>
+        
+    </div>
+    <div class="container b"></div>
+    <div id="seccion_productos" class="container c">
+        <div class="imagenes" data-aos="fade-up">
+            <img class="gorras" src="rosa.png" alt="">
+            <img class="gorras" src="azul.png" alt="">
+            <img class="gorras" src="marron.png" alt="">
+            <img class="gorras" src="blanco.png" alt="">
+        </div>
+        <h3>Ver mas</h3>
+    </div>
+    <div class="container d">
+        <div class="container_texto">
+            <div class="texto">
+                <h1 data-aos="fade-up">¿Sabias Que?</h1>
+                <div>
+                    <p data-aos="fade-up" id="element"></p>
+                </div>
+                
+            </div>
+            <img class="perezoso_img" src="perezoso1.jpg" alt="">
+        </div>
+    </div>
+    <div class="container e"></div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        AOS.init();
+
+
+        var typed = new Typed('#element', {
+      strings: ["Pueden caer desde grandes alturas sin lastimarse.Se han registrado caídas de hasta 30 metros sin sufrir lesiones."],
+      typeSpeed: 15,
+    });
+      </script>
+</body>
+</html>
