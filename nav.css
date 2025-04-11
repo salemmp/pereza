@@ -70,9 +70,11 @@ nav ul li{
 }
 
 nav ul li:hover {
- background-color: rgb(37, 37, 37);
+
  cursor: pointer;
 }
-
+nav ul li a:hover {
+    color: rgb(0, 132, 255);
+}
 
 
